@@ -40,7 +40,7 @@ END_IF
 elapsedSeconds := currentTimeSeconds - initialTimeSeconds; 
 
 // Finally, pass the sine value to see what's up 
-rSineSignal := 10 * SIN(elapsedSeconds * 2 * 3.14); 
+rSineSignal := 2 * SIN(elapsedSeconds * 2 * 3.14); 
 AM_Driver(rCommandVoltage := rSineSignal); 
 nPosOutputCommand := AM_Driver.nPosAnalogOutput; 
 nNegOutputCommand := AM_Driver.nNegAnalogOutput; ]]></ST>
@@ -61,9 +61,8 @@ nNegOutputCommand := AM_Driver.nNegAnalogOutput; ]]></ST>
       <LineId Id="17" Count="0" />
       <LineId Id="16" Count="0" />
       <LineId Id="18" Count="0" />
-      <LineId Id="43" Count="0" />
-      <LineId Id="20" Count="0" />
-      <LineId Id="44" Count="0" />
+      <LineId Id="64" Count="1" />
+      <LineId Id="61" Count="0" />
       <LineId Id="48" Count="0" />
       <LineId Id="13" Count="0" />
       <LineId Id="52" Count="0" />

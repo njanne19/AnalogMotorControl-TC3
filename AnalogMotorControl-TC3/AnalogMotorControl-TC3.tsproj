@@ -85,7 +85,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{2785C48C-09BB-4B24-BA1F-E9E2DFE799DB}" Name="AnalogMotorControl" PrjFilePath="AnalogMotorControl\AnalogMotorControl.plcproj" TmcFilePath="AnalogMotorControl\AnalogMotorControl.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{71ED87C1-286F-93D4-8B4D-56B6316C7E99}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{5E1409F0-F5F6-5A1F-7D38-218D74214D25}">
 					<Name>AnalogMotorControl Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="2" AreaNo="1">

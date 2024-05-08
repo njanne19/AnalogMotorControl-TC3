@@ -37,6 +37,7 @@ END_VAR
 	
 	nPosAnalogOutput := REAL_TO_INT(rCommandVoltage * nTEN_VOLT_AMPLITUDE / 10.0);
 	nNegAnalogOutput := -1 * nPosAnalogOutput;  
+	
 	bOutputInError := FALSE;
 
 ELSE 
@@ -68,6 +69,7 @@ END_IF]]></ST>
       <LineId Id="38" Count="0" />
       <LineId Id="42" Count="1" />
       <LineId Id="46" Count="0" />
+      <LineId Id="77" Count="0" />
       <LineId Id="67" Count="0" />
       <LineId Id="32" Count="0" />
       <LineId Id="31" Count="0" />
@@ -80,7 +82,9 @@ END_IF]]></ST>
       <LineId Id="63" Count="0" />
       <LineId Id="57" Count="2" />
       <LineId Id="61" Count="1" />
-      <LineId Id="64" Count="2" />
+      <LineId Id="64" Count="0" />
+      <LineId Id="71" Count="0" />
+      <LineId Id="66" Count="0" />
       <LineId Id="49" Count="0" />
       <LineId Id="48" Count="0" />
     </LineIds>
